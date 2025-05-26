@@ -25,7 +25,7 @@
 
     .container {
       display: flex;
-      flex-direction: row;
+      flex-direction: row reverse;
       flex-wrap: wrap;
       background-color: #d2e8f1;
       border-radius: 30px;
@@ -50,6 +50,8 @@
       flex: 1;
       min-width: 300px;
       padding: 40px;
+      text-align: right;
+      align-items: flex-end;
       background: linear-gradient(to top right, #fefcea, #f1f9ff);
     }
 
