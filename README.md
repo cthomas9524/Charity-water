@@ -93,7 +93,7 @@
 <body>
   <div class="container">
     <div class="left-section">
-      <img src="https://via.placeholder.com/600x800" alt="Woman at water pump">
+      <img src="(https://cdn.builder.io/api/v1/image/assets%2F2fe4147bb8c843bb8ebba475c8973899%2Fc5aa1dfb86c24d98a0cf079d40f26c01?format=webp&width=2000)" alt="Woman at water pump">
     </div>
     <div class="right-section">
       <div class="logo">charity: water</div>
