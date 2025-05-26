@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,17 +16,18 @@
 
     .container {
       display: flex;
-      flex-wrap: row reverse;
+      flex-direction: row;
+      flex-wrap: wrap;
       min-height: 100vh;
       padding: 40px;
       box-sizing: border-box;
-      background: linear-gradient(to top right, #, #fbc2eb);
+      background: linear-gradient(to top right, #77a8bb, #fbc2eb);
     }
 
-    .left-section {
-      flex: 1;
+    .left-section,
+    .right-section {
+      flex: 1 1 300px;
       min-width: 300px;
-      margin-right: 20px;
     }
 
     .left-section img {
@@ -36,8 +36,6 @@
     }
 
     .right-section {
-      flex: 1;
-      min-width: 300px;
       color: #002244;
       padding-top: 20px;
       text-align: right;
@@ -93,14 +91,66 @@
       background-color: #002244;
       color: white;
     }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .right-section {
+        text-align: left;
+        padding-top: 10px;
+      }
+
+      .buttons {
+        justify-content: flex-start;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+
+      .left-section img,
+      .logo img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .tagline {
+        font-size: 16px;
+      }
+
+      .message {
+        font-size: 14px;
+      }
+
+      .buttons button {
+        font-size: 14px;
+        padding: 10px 15px;
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
+    <div class="logo">
+      <img src="cw_logo.png" alt="Charity: Water Logo" style="height:50px;">
+    </div>
     <div class="left-section">
-      <img src="womanpouringwater.jpg" 
-       alt="Woman at water pump">
+      <img src="womanpouringwater.jpg" alt="Woman at water pump">
     </div>
     <div class="right-section">
       <h1>Charity: Water</h1>
@@ -122,7 +172,3 @@
 </body>
 
 </html>
-
-
-</html>
-
