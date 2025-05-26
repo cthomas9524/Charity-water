@@ -11,7 +11,7 @@
       font-family: 'Georgia', sans-serif;
       background: linear-gradient(to right, #77a8bb, #c8a1b2, #77a8bb);
 
-    }
+  
 
    .container {
       display: flex;
