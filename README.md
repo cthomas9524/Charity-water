@@ -107,7 +107,7 @@
 <body>
   <div class="container">
     <div class="left-section">
-      <img src="https://via.placeholder.com/600x800.png?text=Water+Project" alt="Woman at water pump">
+      <img src="womanpouringwater.jpg" alt="Woman at water pump">
     </div>
     <div class="right-section">
       <div class="logo">charity: water</div>
