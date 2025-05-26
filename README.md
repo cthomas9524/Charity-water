@@ -19,7 +19,7 @@
       min-height: 100vh;
       padding: 40px;
       box-sizing: border-box;
-      background: linear-gradient(to top right, #, #fbc2eb);
+      background: linear-gradient(to top right, #77a8bb, #fbc2eb);
     }
 
     .left-section {
