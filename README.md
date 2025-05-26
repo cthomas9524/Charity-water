@@ -50,14 +50,14 @@
 
     h1 {
       font-family: 'Georgia Pro Condensed', serif;
-      font-size: 64px;
-      color: #002244;
+      font-size: 72px;
+      color: #003366;
       margin: 0;
     }
 
     .tagline {
       font-size: 24px;
-      color: #336666;
+      color: #156669;
       margin: 10px 0 30px;
     }
 
@@ -99,7 +99,6 @@
     <div class="logo">
       <img src="cw_logo.png" alt="Charity: Water Logo" style="height:50px;">
     </div> 
-    
     <div class="left-section">
       <img src="womanpouringwater.jpg" alt="Woman at water pump">
     </div>
