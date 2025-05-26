@@ -1,107 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charity: Water</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Chaity: Water</title>
+  <link href="https://cthomas9524.github.io/charity.water" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: 'Open Sans', sans-serif;
-      background: linear-gradient(to top right, #a1c4fd, #fbc2eb);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 40px;
+      margin: 0;
+      font-family: 'Georgia', sans-serif;
+      background: linear-gradient(to right, #77a8bb, #c8a1b2, #77a8bb);
+
     }
 
     .container {
       display: flex;
-      flex-direction: row reverse;
-      flex-wrap: wrap;
-      background-color: #d2e8f1;
-      border-radius: 30px;
-      overflow: hidden;
-      max-width: 1200px;
-      width: 100%;
+      flex-wrap: row reverse;
+      min-height: 100vh;
+      padding: 40px;
+      box-sizing: border-box;
+      background: linear-gradient(to top right, #, #fbc2eb);
     }
 
     .left-section {
       flex: 1;
       min-width: 300px;
+      margin-right: 20px;
     }
 
     .left-section img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
+      border-radius: 40px;
     }
 
     .right-section {
       flex: 1;
       min-width: 300px;
-      padding: 40px;
+      color: #002244;
+      padding-top: 20px;
       text-align: right;
-      align-items: flex-end;
-      background: linear-gradient(to top right, #fefcea, #f1f9ff);
     }
 
     .logo {
       font-family: 'Playfair Display', serif;
-      font-size: 20px;
+      font-size: 28px;
+      font-weight: bold;
       margin-bottom: 10px;
     }
 
     h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 48px;
+      font-family: 'Georgia Pro Condensed', serif;
+      font-size: 64px;
       color: #002244;
-      margin-bottom: 10px;
+      margin: 0;
     }
 
     .tagline {
-      font-size: 20px;
-      color: #2e7d75;
-      margin-bottom: 30px;
+      font-size: 24px;
+      color: #336666;
+      margin: 10px 0 30px;
     }
 
     .message {
       font-size: 18px;
       line-height: 1.6;
-      color: #222;
       margin-bottom: 30px;
     }
 
     .buttons {
       display: flex;
       gap: 20px;
-      flex-wrap: wrap;
+      flex-wrap: row-reverse;
+      justify-content: flex-end;
     }
 
     .buttons button {
-      padding: 12px 24px;
-      font-size: 16px;
-      border: 2px solid #336666;
-      background-color: #e1f5f2;
+      padding: 15px 25px;
+      font-size: 18px;
+      color: #77a8bb;
+      border: 2px solid #002244;
+      background-color: #eeecde;
       border-radius: 20px;
-      color: #336666;
-      font-weight: bold;
       cursor: pointer;
       transition: all 0.3s ease;
+      font-family: 'Georgia Pro', serif;
+      font-weight: bold;
     }
 
     .buttons button:hover {
-      background-color: #336666;
-      color: #ffffff;
+      background-color: #002244;
+      color: white;
     }
   </style>
 </head>
@@ -109,10 +99,10 @@
 <body>
   <div class="container">
     <div class="left-section">
-      <img src="womanpouringwater.jpg" alt="Woman at water pump">
+      <img src="womanpouringwater.jpg" 
+       alt="Woman at water pump">
     </div>
     <div class="right-section">
-      <div class="logo">charity: water</div>
       <h1>Charity: Water</h1>
       <div class="tagline">Change isn’t a Donation. It’s a Movement</div>
       <div class="message">
@@ -130,6 +120,9 @@
     </div>
   </div>
 </body>
+
+</html>
+
 
 </html>
 
