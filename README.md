@@ -98,7 +98,8 @@
   <div class="container">
     <div class="logo">
       <img src="cw_logo.png" alt="Charity: Water Logo" style="height:50px;">
-    </div>
+    </div> 
+    
     <div class="left-section">
       <img src="womanpouringwater.jpg" alt="Woman at water pump">
     </div>
