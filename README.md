@@ -42,10 +42,13 @@
     }
 
     .logo {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Georgia', serif;
       font-size: 28px;
       font-weight: bold;
       margin-bottom: 10px;
+      background: #fff;
+      padding: 20px 40px 0 40px;
+      border-radius: 12px; 
     }
 
     h1 {
